@@ -8,22 +8,7 @@ var Analysis = require('./analysis');
 
 function handleRequest(request, response) {
   var bodyString = '';
-  //TODO récupérer les informations sur la requete et remplir l'objet suivant:
-  var analysisData = {
-    method: null,
-    url: null,
-    path: null,
-    params: {
-      query: null,
-      body: null
-    }
-  };
-  //extraire les paramètres de l'URL
-  analysisData.method = request.method;
-  analysisData.url = request.url;
-  var reqUrl = url.parse(request.url, true);
-  analysisData.path = reqUrl.pathname;
-  analysisData.params.query = reqUrl.query;
+
 
   request.on('data', function (chunk) {
     bodyString += chunk;

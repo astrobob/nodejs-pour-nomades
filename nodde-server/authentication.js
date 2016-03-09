@@ -33,7 +33,7 @@ var authentication = {
         res.json(403, { success: false, message: 'you need to authenticate to access this part of the API'});
       }
     });
-  }
+  },
 };
 
 
