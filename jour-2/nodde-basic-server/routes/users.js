@@ -8,6 +8,10 @@ var mockUpData = require('../mock-up-data.js');
 
 var users = {
   //TODO faire comme avec pools.js !
+  handleRequest: function(req, res) {
+	res.writeHead(404);
+	res.end();
+  }
 };
 
 module.exports = users;
