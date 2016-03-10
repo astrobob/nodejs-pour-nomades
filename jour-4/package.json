@@ -10,6 +10,7 @@
   "license": "WTFPL",
   "dependencies": {
     "async": "^1.5.2",
+    "jsonapi-serializer": "^3.0.0",
     "mongo-express": "^0.30.28",
     "mongodb": "^2.1.7"
   }
