@@ -1,0 +1,7 @@
+{"_id":{ "$oid": "56e15766b8bcff01588ce576" },"name":"Développement web"}
+{"_id":{ "$oid": "56e15777b8bcff01588ce578" },"name":"Graphisme"}
+{"_id":{ "$oid": "56e157b4b8bcff01588ce57a" },"name":"UI/UX"}
+{"_id":{ "$oid": "56e157cab8bcff01588ce57c" },"name":"Material Design"}
+{"_id":{ "$oid": "56e157e3b8bcff01588ce57e" },"name":"Infrastructure"}
+{"_id":{ "$oid": "56e157ffb8bcff01588ce580" },"name":"Gestion de projet"}
+{"_id":{ "$oid": "56e15956b8bcff01588ce586" },"name":"Bootstrap"}

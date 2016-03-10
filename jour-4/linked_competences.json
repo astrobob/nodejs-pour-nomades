@@ -1,0 +1,4 @@
+{"_id":{ "$oid": "56e158a3b8bcff01588ce582" },"competences":["56e15777b8bcff01588ce578","56e157cab8bcff01588ce57c"],"weight":3}
+{"_id":{ "$oid": "56e15901b8bcff01588ce584" },"competences":["56e15777b8bcff01588ce578","56e157b4b8bcff01588ce57a"],"weight":3}
+{"_id":{ "$oid": "56e15b79b8bcff01588ce588" },"competences":["56e15777b8bcff01588ce578","56e15956b8bcff01588ce586"],"weight":4}
+{"_id":{ "$oid": "56e15ba5b8bcff01588ce58a" },"competences":["56e157cab8bcff01588ce57c","56e15956b8bcff01588ce586"],"weight":4}
