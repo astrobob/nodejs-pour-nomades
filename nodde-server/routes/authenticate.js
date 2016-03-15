@@ -8,6 +8,7 @@ var jwt = require('jsonwebtoken');
 
 var authentication = require('../authentication.js');
 var config = require('../config.js');
+var User = require('../models/user');
 
 var router = express.Router();
 
@@ -33,16 +34,14 @@ router.post('/', function(req, res, next) {
   var password = req.body.password;
 
   //browse users and try finding the good one
-  var db = req.db;
-  db.collection('users').find({
+  User.findOne({
     $or: [
       { name: userIdentifier },
       { email: userIdentifier }
     ]
-  }).limit(1).toArray().then(function(users) {
-    if (users.length > 0) {
-      // found the user, let's check the hash
-      var user = users[0];
+  }, 'password', function (err, user) {
+    if (err) throw err;
+    if (user) {
       bcrypt.compare(password, user.password, function(err, wasMatch) {
         if (err) throw err;
         if (wasMatch === true) {
@@ -66,8 +65,6 @@ router.post('/', function(req, res, next) {
         message: "wrong combination of password/identification"
       });
     }
-  }, function(err) {
-    throw err;
   });
 });
 
