@@ -1,0 +1,16 @@
+{
+  "name": "jour-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "WTFPL",
+  "dependencies": {
+    "async": "^1.5.2",
+    "mongo-express": "^0.30.28",
+    "mongodb": "^2.1.7"
+  }
+}

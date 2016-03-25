@@ -1,0 +1,11 @@
+{
+  "name": "analyse",
+  "version": "1.0.0",
+  "description": "simple web server that shows some information about each incoming request",
+  "main": "analyse-me.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "WTFPL"
+}

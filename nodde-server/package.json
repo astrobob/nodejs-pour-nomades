@@ -1,0 +1,29 @@
+{
+  "name": "noddle-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": "latest",
+    "bcrypt": "^0.8.5",
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "express-validator": "^2.19.1",
+    "jade": "~1.11.0",
+    "jsonapi-serializer": "^2.1.1",
+    "jsonwebtoken": "^5.7.0",
+    "mongodb": "^2.1.7",
+    "mongoose": "^4.4.6",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2",
+    "supertest": "^1.2.0"
+  }
+}

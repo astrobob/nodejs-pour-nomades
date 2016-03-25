@@ -1,0 +1,14 @@
+{
+  "name": "jour-1",
+  "version": "1.0.0",
+  "description": "du code pour le 1er jour",
+  "main": "hello-world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "leojpod",
+  "license": "WTFPL",
+  "dependencies": {
+    "async-fibo": "^1.0.1"
+  }
+}
